@@ -52,7 +52,7 @@ def make_seasons_array():
 	for start, end in pairwise(arr):
 		season = start + '-' + end
 		ret.append(season)
-	return ret
+	return (arr, ret)
 
 def get_stats():
 
@@ -61,7 +61,7 @@ def get_stats():
 	# TargetURL
 	# http://statsheet.com/mcb/teams/syracuse/team_stats?season=2013-2014&type=all
 	
-	seasons = make_seasons_array()
+	(years, seasons) = make_seasons_array()
 	extraPart = '/team_stats?season=' + season + '&type=all'
 
 	# url = 'http://statsheet.com/mcb/teams/syracuse/team_stats?type=all'
@@ -106,6 +106,13 @@ def get_games():
 			continue
 		team_name = line_array[0]
 		url = line_array[1]
+		(years, seasons) = make_seasons_array()
+		for year in years:
+			urlarr = url[59:].split("/")
+			urlarr.insert(2,'year')
+			urlarr.insert(3, year)
+			url = url[0:59] + '/'.join(urlarr)
+			#need to modify this so that it actually does all the stuff below for every year
 		soup = get_page(url)
 		gameFile = open('textfiles/games.txt', 'a')
 		for tr in soup.findAll("tr"):
