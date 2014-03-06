@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 from selenium import webdriver
 import string, re
+from itertools import tee, izip
 
 def get_page(url):
 
@@ -32,13 +33,35 @@ def get_teams():
 					outputFile.write(line + "\n")
 					outputFile.close()
 
+def pairwise(iterable):
+    "s -> (s0,s1), (s1,s2), (s2, s3), ..."
+    a, b = tee(iterable)
+    next(b, None)
+    return izip(a, b)
+
+def make_seasons_array():
+	base = '20'
+	arr = []
+	ret = []
+	for num in range(3,15):	
+		if len(str(num)) < 2:
+			start = base + '0' + str(num)
+		else:
+			start = base + str(num)
+		arr.append(start)
+	for start, end in pairwise(arr):
+		season = start + '-' + end
+		ret.append(season)
+	return ret
+
 def get_stats():
 
 	teamFile = open('textfiles/teams_statsheet.txt', 'r')
 	
 	# TargetURL
 	# http://statsheet.com/mcb/teams/syracuse/team_stats?season=2013-2014&type=all
-	season = '2013-2014'
+	
+	seasons = make_seasons_array()
 	extraPart = '/team_stats?season=' + season + '&type=all'
 
 	# url = 'http://statsheet.com/mcb/teams/syracuse/team_stats?type=all'
