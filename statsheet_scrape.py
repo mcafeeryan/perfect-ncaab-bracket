@@ -65,86 +65,38 @@ def get_stats():
 	extraPart = '/team_stats?season=' + season + '&type=all'
 
 	# url = 'http://statsheet.com/mcb/teams/syracuse/team_stats?type=all'
-	url = "http://statsheet.com/mcb/teams/nebraska-omaha/team_stats?type=all"
-	thearray = [url]
-	for url in thearray:
+	
+	tflines = teamFile.readlines()
+	teamurls = [x.strip('\n').split(',')[1] for x in tflines]
+	teams = [x.strip('\n').split(',')[0] for x in tflines]
+	for url, name in zip(teamurls,teams):
+		for season in seasons:
+			full_url = url + '/team_stats?season=' + season + '&type=all'
+			soup = get_page(url)
+			for table in soup.findAll("table", { "class" : "table-stats" }):
+		    	valueStr = ""
+		    	opponentsVals = ""
+		    	for tr in table.findAll("tr"):
+		    		tds = tr.findAll("td")
 
-		# splitLine = team.strip("\n").split(",")
-		# teamName = splitLine[0]
-		# teamURL = splitLine[1]
+				    # this are the values
+				    if len(tds):
+				    	valueStr += str(tds[1].text) + ","
+				    	opponentsVals += str(tds[4].text) + ','
 
-		teamName = "Nebraska-Omaha"
-		# url = teamURL + extraPart
-
-		soup = get_page(url)
-		# print soup
-		for table in soup.findAll("table", { "class" : "table-stats" }):
-
-			valueStr = ""
-			for tr in table.findAll("tr"):
-				tds = tr.findAll("td")
-
-				# this are the values
-				if len(tds):
-					valueStr += str(tds[1].text) + ","
-
-			if valueStr != "":
-				valueStr = valueStr[:-1]
-				statFile = open('test.txt', 'a')
-				statFile.write(teamName + "," + valueStr + "\n")
-				statFile.close()
+			    if valueStr != "":
+			    	valueStr = valueStr[:-1]
+			    	filename = season + '_teamstats' + '.csv'
+			    	statFile = open(filename, 'a')
+			    	statFile.write(name + "," + valueStr + "\n")
+			    	statFile.close()
+			    	opFilename = season + '_opponentstats' + '.csv'
+			    	opponentsVals = opponentsVals[:-1]
+			    	opFile = open(opFilename, 'a')
+			    	opFile.write(name + ',' + opponentsVals + "\n")
+			    	opFile.close()
 
 	teamFile.close()
-
-def get_games():
-	team_file = open('textfiles/teams.txt', 'r')
-	lines = team_file.readlines()
-
-	for line in lines:
-		line_array = line.split(",")
-		if len(line_array) < 2:
-			continue
-		team_name = line_array[0]
-		url = line_array[1]
-		(years, seasons) = make_seasons_array()
-		for year in years:
-			urlarr = url[59:].split("/")
-			urlarr.insert(2,'year')
-			urlarr.insert(3, year)
-			url = url[0:59] + '/'.join(urlarr)
-			#need to modify this so that it actually does all the stuff below for every year
-		soup = get_page(url)
-		gameFile = open('textfiles/games.txt', 'a')
-		for tr in soup.findAll("tr"):
-			ret_line = ""
-			if tr["class"][0] not in ['stathead', 'colhead']:
-				game_status = tr.findAll("li", {"class":"game-status"})
-				opponent_team_name= tr.findAll("li", {"class":"team-name"})[0].text
-
-				opponent_team_name = opponent_team_name.replace("*","") 
-				opponent_team_name = re.sub(r'^#\d{1,2}[\W_]? ',"", opponent_team_name)
-				# opponent_team_name = re.sub(r'\([^\(]*\)',"", opponent_team_name)
-				if len(game_status)>1:
-
-					if game_status[0].text == "@":
-						ret_line+=opponent_team_name+","
-						ret_line+=team_name+","
-						if game_status[1].span.text == "W":
-							ret_line+= "L"
-						else:
-							ret_line+= "W"
-					else:
-						ret_line+=team_name+","
-						ret_line+=opponent_team_name+","
-
-						if game_status[1].span.text == "W":
-							ret_line+= "W"
-						else:
-							ret_line+= "L"
-			ret_line+="\n"
-			if ret_line != "\n":
-				gameFile.write(ret_line)
-	gameFile.close()
 				
 
 def main():
