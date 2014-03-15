@@ -85,13 +85,11 @@ for i in range(10):
 		outdict[team]['home_wscore'] = home_wscore
 		outdict[team]['away_wscore'] = away_wscore
 		outdict[team]['neutral_wscore'] = neutral_wscore
-	maxhscore = max([x['home_wscore'] for x in outdict.values()])
-	maxascore = max([x['away_wscore'] for x in outdict.values()])
-	maxnscore = max([x['neutral_wscore'] for x in outdict.values()])
-	for key,team in outdict.items():
-		outdict[key]['home_wscore'] = team['home_wscore']/maxhscore
-		outdict[key]['away_wscore'] = team['away_wscore']/maxascore
-		outdict[key]['neutral_wscore'] = team['neutral_wscore']/maxnscore
+
+for team, opps in winrecord.items():
+	outdict[team]['home_wscore'] = math.log(outdict[team]['home_wscore']) if int(outdict[team]['home_wscore']) != 0 else 0.0
+	outdict[team]['away_wscore'] = math.log(outdict[team]['away_wscore']) if int(outdict[team]['away_wscore']) != 0 else 0.0
+	outdict[team]['neutral_wscore'] = math.log(outdict[team]['neutral_wscore']) if int(outdict[team]['neutral_wscore']) != 0 else 0.0
 
 
 outfile = open(os.path.join(outdir, 'win_data.csv'), 'wb')
