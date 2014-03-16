@@ -1,357 +1,357 @@
-id	name
-501	Abilene Christian
-502	Air Force
-503	Akron
-504	Alabama
-505	Alabama A&M
-506	Alabama State
-507	Albany
-508	Alcorn State
-509	American University
-510	Appalachian State
-511	Arizona
-512	Arizona State
-513	Arkansas-Little Rock
-514	Arkansas-Pine Bluff
-515	Arkansas
-516	Arkansas State
-517	Army
-518	Auburn
-519	Austin Peay
-520	Ball State
-521	Baylor
-522	Belmont
-523	Bethune-Cookman
-524	Binghamton
-525	
-526	Boise State
-527	Boston College
-528	Boston University
-529	Bowling Green
-530	Bradley
-531	Brown
-532	Bryant
-533	Bucknell
-534	Buffalo
-535	Butler
-536	Brigham Young
-537	Central Michigan
-538	Cal Poly
-539	California
-540	Campbell
-541	Canisius
-542	Central Arkansas
-543	
-544	Central Connecticut State
-545	Charleston Southern
-546	Charlotte
-547	Chattanooga
-548	Chicago State
-549	Cincinnati
-550	Citadel
-551	Clemson
-552	Cleveland State
-553	Coastal Carolina
-554	College of Charleston
-555	Colgate
-556	Colorado
-557	Colorado State
-558	Columbia
-559	Connecticut
-560	Coppin State
-561	Cornell
-562	Creighton
-563	Cal State Bakersfield
-564	Cal State Fullerton
-565	Cal State Northridge
-566	Sacramento State
-567	Dartmouth
-568	Davidson
-569	Dayton
-570	Delaware
-571	Delaware State
-572	Denver
-573	DePaul
-574	Detroit
-575	Drake
-576	Drexel
-577	Duke
-578	Duquesne
-579	Eastern Illinois
-580	Eastern Kentucky
-581	Eastern Michigan
-582	Eastern Washington
-583	East Carolina
-584	SIU Edwardsville
-585	Elon
-586	East Tennessee State
-587	Evansville
-588	Fairleigh Dickinson
-589	Fairfield
-590	Florida Atlantic
-591	Florida Gulf Coast
-592	Florida
-593	Florida A&M
-594	Florida International
-595	Florida State
-596	Fordham
-597	Fresno State
-598	Furman
-599	George Washington
-600	Georgia Southern
-601	Gardner-Webb
-602	George Mason
-603	Georgetown
-604	Georgia
-605	Georgia State
-606	Georgia Tech
-607	Gonzaga
-608	Grambling State
-609	
-610	Hampton
-611	Hartford
-612	Harvard
-613	Hawaii
-614	High Point
-615	Hofstra
-616	Holy Cross
-617	Houston
-618	Houston Baptist
-619	Howard
-620	Idaho
-621	Idaho State
-622	UIC
-623	Illinois
-624	Illinois State
-625	Indiana
-626	Indiana State
-627	Iona
-628	Iowa
-629	Iowa State
-630	IPFW
-631	IUPUI
-632	Jackson State
-633	Jacksonville
-634	Jacksonville State
-635	James Madison
-636	Kansas
-637	Kansas State
-638	Kennesaw State
-639	Kent State
-640	Kentucky
-641	La Salle
-642	Lafayette
-643	Lamar
-644	Lehigh
-645	Liberty
-646	Lipscomb
-647	Long Beach State
-648	Long Island
-649	Longwood
-650	Louisiana Tech
-651	Louisville
-652	Loyola Marymount
-653	Loyola (MD)
-654	Loyola (Chicago)
-655	LSU
-656	
-657	Maine
-658	Manhattan
-659	Marist
-660	Marquette
-661	Marshall
-662	Maryland
-663	Massachusetts
-664	McNeese State
-665	Maryland-Eastern Shore
-666	Memphis
-667	Mercer
-668	Miami (FL)
-669	Miami (OH)
-670	Michigan
-671	Michigan State
-672	Middle Tennessee State
-673	Minnesota
-674	Ole Miss
-675	Mississippi State
-676	Missouri
-677	Missouri-Kansas City
-678	Missouri State
-679	Monmouth
-680	Montana
-681	Montana State
-682	Morehead State
-683	Morgan State
-684	
-685	Mississippi Valley State
-686	Mount St. Mary's
-687	Murray State
-688	Northern Colorado
-689	North Dakota State
-690	Northern Illinois
-691	Northern Kentucky
-692	Navy
-693	North Carolina A&T
-694	North Carolina Central
-695	NC State
-696	
-697	Nebraska-Omaha
-698	Nebraska
-699	Nevada
-700	New Hampshire
-701	New Mexico
-702	New Mexico State
-703	New Orleans
-704	Niagara
-705	Nicholls State
-706	New Jersey Tech
-707	Norfolk State
-708	North Carolina
-709	North Dakota
-710	North Florida
-711	North Texas
-712	Northeastern
-713	Northern Arizona
-714	Northern Iowa
-715	Northwestern
-716	Northwestern State
-717	Notre Dame
-718	Oakland
-719	Ohio
-720	Ohio State
-721	Oklahoma
-722	Oklahoma State
-723	Old Dominion
-724	Oral Roberts
-725	Oregon
-726	Oregon State
-727	Pacific
-728	Pennsylvania
-729	Penn State
-730	Pepperdine
-731	Pittsburgh
-732	Portland
-733	Portland State
-734	Prairie View A&M
-735	Presbyterian
-736	Princeton
-737	Providence
-738	Purdue
-739	Quinnipiac
-740	Radford
-741	Rhode Island
-742	Rice
-743	Richmond
-744	Rider
-745	Robert Morris
-746	Rutgers
-747	South Carolina State
-748	South Dakota State
-749	Southern Illinois
-750	Sacred Heart
-751	Sam Houston State
-752	Samford
-753	San Diego
-754	San Diego State
-755	San Francisco
-756	San Jose State
-757	UC-Santa Barbara
-758	Santa Clara
-759	Savannah State
-760	USC Upstate
-761	Southeastern Louisiana
-762	Southeast Missouri State
-763	Seattle
-764	Seton Hall
-765	Stephen F. Austin
-766	Siena
-767	Southern Methodist
-768	South Alabama
-769	South Carolina
-770	South Dakota
-771	South Florida
-772	Southern Miss
-773	Southern University
-774	Southern Utah
-775	St. Bonaventure
-776	St. Francis (NY)
-777	St. Francis (PA)
-778	St. John's
-779	St. Joseph's (PA)
-780	Saint Louis
-781	Saint Mary's
-782	St. Peter's
-783	Stanford
-784	Stetson
-785	Stony Brook
-786	Syracuse
-787	Texas A&M-Corpus Christi
-788	TCU
-789	Temple
-790	Tennessee
-791	Tennessee State
-792	Tennessee Tech
-793	Texas
-794	Texas A&M
-795	Texas State
-796	Texas Tech
-797	Tennessee-Martin
-798	Toledo
-799	Towson
-800	Troy
-801	Tulane
-802	Tulsa
-803	Texas-Pan American
-804	Texas Southern
-805	UAB
-806	UC Davis
-807	UC Irvine
-808	UC Riverside
-809	UCF
-810	UCLA
-811	Louisiana
-812	Louisiana-Monroe
-813	Maryland-Baltimore County
-814	North Carolina-Asheville
-815	North Carolina-Greensboro
-816	North Carolina-Wilmington
-817	UNLV
-818	USC
-819	Texas-Arlington
-820	Texas-San Antonio
-821	Utah
-822	Utah State
-823	Utah Valley University
-824	Texas-El Paso
-825	Virginia Commonwealth
-826	Valparaiso
-827	Vanderbilt
-828	Vermont
-829	Villanova
-830	Virginia
-831	Virginia Tech
-832	Virginia Military Institute
-833	Western Carolina
-834	Western Illinois
-835	Western Kentucky
-836	Western Michigan
-837	
-838	Wagner
-839	Wake Forest
-840	Washington
-841	Washington State
-842	Weber State
-843	West Virginia
-844	Green Bay
-845	Milwaukee
-846	Wichita State
-847	William & Mary
-848	Winthrop
-849	Wisconsin
-850	Wofford
-851	Wright State
-852	Wyoming
-853	Xavier
-854	Yale
-855	Youngstown State
-856	Incarnate Word
+id	kg_name	ss_name	tr_name
+501	Abilene Chr	Abilene Christian	Abilene Christian
+502	Air Force	Air Force	Air Force
+503	Akron	Akron	Akron
+504	Alabama	Alabama	Alabama
+505	Alabama A&M	Alabama A&M	Alab A&M
+506	Alabama St	Alabama State	Alabama St
+507	Albany NY	Albany	Albany
+508	Alcorn St	Alcorn State	Alcorn State
+509	American Univ	American University	American
+510	Appalachian St	Appalachian State	App State
+511	Arizona	Arizona	Arizona
+512	Arizona St	Arizona State	Arizona St
+513	Ark Little Rock	Arkansas-Little Rock	AR Lit Rock
+514	Ark Pine Bluff	Arkansas-Pine Bluff	Ark Pine Bl
+515	Arkansas	Arkansas	Arkansas
+516	Arkansas St	Arkansas State	Arkansas St
+517	Army	Army	Army
+518	Auburn	Auburn	Auburn
+519	Austin Peay	Austin Peay	Austin Peay
+520	Ball St	Ball State	Ball State
+521	Baylor	Baylor	Baylor
+522	Belmont	Belmont	Belmont
+523	Bethune-Cookman	Bethune-Cookman	Beth-Cook
+524	Binghamton	Binghamton	Binghamton
+525	Birmingham So		
+526	Boise St	Boise State	Boise State
+527	Boston College	Boston College	Boston Col
+528	Boston Univ	Boston University	Boston U
+529	Bowling Green	Bowling Green	Bowling Grn
+530	Bradley	Bradley	Bradley
+531	Brown	Brown	Brown
+532	Bryant	Bryant	Bryant
+533	Bucknell	Bucknell	Bucknell
+534	Buffalo	Buffalo	Buffalo
+535	Butler	Butler	Butler
+536	BYU	Brigham Young	BYU
+537	C Michigan	Central Michigan	Central Mich
+538	Cal Poly SLO	Cal Poly	Cal Poly
+539	California	California	California
+540	Campbell	Campbell	Campbell
+541	Canisius	Canisius	Canisius
+542	Cent Arkansas	Central Arkansas	Central Ark
+543	Centenary		
+544	Central Conn	Central Connecticut State	Central Conn
+545	Charleston So	Charleston Southern	Charl South
+546	Charlotte	Charlotte	Charlotte
+547	Chattanooga	Chattanooga	Chattanooga
+548	Chicago St	Chicago State	Chicago St
+549	Cincinnati	Cincinnati	Cincinnati
+550	Citadel	Citadel	Citadel
+551	Clemson	Clemson	Clemson
+552	Cleveland St	Cleveland State	Cleveland St
+553	Coastal Car	Coastal Carolina	Coastal Car
+554	Col Charleston	College of Charleston	Col Charlestn
+555	Colgate	Colgate	Colgate
+556	Colorado	Colorado	Colorado
+557	Colorado St	Colorado State	Colorado St
+558	Columbia	Columbia	Columbia
+559	Connecticut	Connecticut	Connecticut
+560	Coppin St	Coppin State	Coppin State
+561	Cornell	Cornell	Cornell
+562	Creighton	Creighton	Creighton
+563	CS Bakersfield	Cal State Bakersfield	CS Bakersfld
+564	CS Fullerton	Cal State Fullerton	CS Fullerton
+565	CS Northridge	Cal State Northridge	Cal St Nrdge
+566	CS Sacramento	Sacramento State	Sac State
+567	Dartmouth	Dartmouth	Dartmouth
+568	Davidson	Davidson	Davidson
+569	Dayton	Dayton	Dayton
+570	Delaware	Delaware	Delaware
+571	Delaware St	Delaware State	Delaware St
+572	Denver	Denver	Denver
+573	DePaul	DePaul	DePaul
+574	Detroit	Detroit	Detroit
+575	Drake	Drake	Drake
+576	Drexel	Drexel	Drexel
+577	Duke	Duke	Duke
+578	Duquesne	Duquesne	Duquesne
+579	E Illinois	Eastern Illinois	E Illinois
+580	E Kentucky	Eastern Kentucky	E Kentucky
+581	E Michigan	Eastern Michigan	E Michigan
+582	E Washington	Eastern Washington	E Washingtn
+583	East Carolina	East Carolina	E Carolina
+584	Edwardsville	SIU Edwardsville	SIU Edward
+585	Elon	Elon	Elon
+586	ETSU	East Tennessee State	E Tenn St
+587	Evansville	Evansville	Evansville
+588	F Dickinson	Fairleigh Dickinson	F Dickinson
+589	Fairfield	Fairfield	Fairfield
+590	FL Atlantic	Florida Atlantic	Fla Atlantic
+591	FL Gulf Coast	Florida Gulf Coast	Fla Gulf Cst
+592	Florida	Florida	Florida
+593	Florida A&M	Florida A&M	Florida A&M
+594	Florida Intl	Florida International	Florida Intl
+595	Florida St	Florida State	Florida St
+596	Fordham	Fordham	Fordham
+597	Fresno St	Fresno State	Fresno St
+598	Furman	Furman	Furman
+599	G Washington	George Washington	Geo Wshgtn
+600	Ga Southern	Georgia Southern	GA Southern
+601	Gardner Webb	Gardner-Webb	Gard-Webb
+602	George Mason	George Mason	Geo Mason
+603	Georgetown	Georgetown	Georgetown
+604	Georgia	Georgia	Georgia
+605	Georgia St	Georgia State	Georgia St
+606	Georgia Tech	Georgia Tech	GA Tech
+607	Gonzaga	Gonzaga	Gonzaga
+608	Grambling	Grambling State	Grambling St
+609	Grand Canyon		Grand Canyon
+610	Hampton	Hampton	Hampton
+611	Hartford	Hartford	Hartford
+612	Harvard	Harvard	Harvard
+613	Hawaii	Hawaii	Hawaii
+614	High Point	High Point	High Point
+615	Hofstra	Hofstra	Hofstra
+616	Holy Cross	Holy Cross	Holy Cross
+617	Houston	Houston	Houston
+618	Houston Bap	Houston Baptist	Houston Bap
+619	Howard	Howard	Howard
+620	Idaho	Idaho	Idaho
+621	Idaho St	Idaho State	Idaho State
+622	IL Chicago	UIC	IL-Chicago
+623	Illinois	Illinois	Illinois
+624	Illinois St	Illinois State	Illinois St
+625	Indiana	Indiana	Indiana
+626	Indiana St	Indiana State	Indiana St
+627	Iona	Iona	Iona
+628	Iowa	Iowa	Iowa
+629	Iowa St	Iowa State	Iowa State
+630	IPFW	IPFW	IPFW
+631	IUPUI	IUPUI	IUPUI
+632	Jackson St	Jackson State	Jackson St
+633	Jacksonville	Jacksonville	Jacksonville
+634	Jacksonville St	Jacksonville State	Jksnville St
+635	James Madison	James Madison	James Mad
+636	Kansas	Kansas	Kansas
+637	Kansas St	Kansas State	Kansas St
+638	Kennesaw	Kennesaw State	Kennesaw St
+639	Kent	Kent State	Kent State
+640	Kentucky	Kentucky	Kentucky
+641	La Salle	La Salle	La Salle
+642	Lafayette	Lafayette	Lafayette
+643	Lamar	Lamar	Lamar
+644	Lehigh	Lehigh	Lehigh
+645	Liberty	Liberty	Liberty
+646	Lipscomb	Lipscomb	Lipscomb
+647	Long Beach St	Long Beach State	Lg Beach St
+648	Long Island	Long Island	LIU-Brooklyn
+649	Longwood	Longwood	Longwood
+650	Louisiana Tech	Louisiana Tech	LA Tech
+651	Louisville	Louisville	Louisville
+652	Loy Marymount	Loyola Marymount	Loyola Mymt
+653	Loyola MD	Loyola (MD)	Loyola-MD
+654	Loyola-Chicago	Loyola (Chicago)	Loyola-Chi
+655	LSU	LSU	LSU
+656	MA Lowell		Massachusetts Lowell
+657	Maine	Maine	Maine
+658	Manhattan	Manhattan	Manhattan
+659	Marist	Marist	Marist
+660	Marquette	Marquette	Marquette
+661	Marshall	Marshall	Marshall
+662	Maryland	Maryland	Maryland
+663	Massachusetts	Massachusetts	U Mass
+664	McNeese St	McNeese State	McNeese St
+665	MD E Shore	Maryland-Eastern Shore	Maryland ES
+666	Memphis	Memphis	Memphis
+667	Mercer	Mercer	Mercer
+668	Miami FL	Miami (FL)	Miami (FL)
+669	Miami OH	Miami (OH)	Miami (OH)
+670	Michigan	Michigan	Michigan
+671	Michigan St	Michigan State	Michigan St
+672	Middle Tenn St	Middle Tennessee State	Middle Tenn
+673	Minnesota	Minnesota	Minnesota
+674	Mississippi	Ole Miss	Mississippi
+675	Mississippi St	Mississippi State	Miss State
+676	Missouri	Missouri	Missouri
+677	Missouri KC	Missouri-Kansas City	UMKC
+678	Missouri St	Missouri State	Missouri St
+679	Monmouth NJ	Monmouth	Monmouth
+680	Montana	Montana	Montana
+681	Montana St	Montana State	Montana St
+682	Morehead St	Morehead State	Morehead St
+683	Morgan St	Morgan State	Morgan St
+684	Morris Brown		
+685	MS Valley St	Mississippi Valley State	Miss Val St
+686	Mt St Mary's	Mount St. Mary's	Mt St Marys
+687	Murray St	Murray State	Murray St
+688	N Colorado	Northern Colorado	N Colorado
+689	N Dakota St	North Dakota State	N Dakota St
+690	N Illinois	Northern Illinois	N Illinois
+691	N Kentucky	Northern Kentucky	N Kentucky
+692	Navy	Navy	Navy
+693	NC A&T	North Carolina A&T	NC A&T
+694	NC Central	North Carolina Central	NC Central
+695	NC State	NC State	NC State
+696	NE Illinois		
+697	NE Omaha	Nebraska-Omaha	Neb Omaha
+698	Nebraska	Nebraska	Nebraska
+699	Nevada	Nevada	Nevada
+700	New Hampshire	New Hampshire	N Hampshire
+701	New Mexico	New Mexico	New Mexico
+702	New Mexico St	New Mexico State	N Mex State
+703	New Orleans	New Orleans	New Orleans
+704	Niagara	Niagara	Niagara
+705	Nicholls St	Nicholls State	Nicholls St
+706	NJIT	New Jersey Tech	NJIT
+707	Norfolk St	Norfolk State	Norfolk St
+708	North Carolina	North Carolina	N Carolina
+709	North Dakota	North Dakota	North Dakota
+710	North Florida	North Florida	N Florida
+711	North Texas	North Texas	North Texas
+712	Northeastern	Northeastern	Northeastrn
+713	Northern Arizona	Northern Arizona	N Arizona
+714	Northern Iowa	Northern Iowa	N Iowa
+715	Northwestern	Northwestern	Northwestern
+716	Northwestern LA	Northwestern State	NW State
+717	Notre Dame	Notre Dame	Notre Dame
+718	Oakland	Oakland	Oakland
+719	Ohio	Ohio	Ohio
+720	Ohio St	Ohio State	Ohio State
+721	Oklahoma	Oklahoma	Oklahoma
+722	Oklahoma St	Oklahoma State	Oklahoma St
+723	Old Dominion	Old Dominion	Old Dominion
+724	Oral Roberts	Oral Roberts	Oral Roberts
+725	Oregon	Oregon	Oregon
+726	Oregon St	Oregon State	Oregon St
+727	Pacific	Pacific	Pacific
+728	Penn	Pennsylvania	U Penn
+729	Penn St	Penn State	Penn State
+730	Pepperdine	Pepperdine	Pepperdine
+731	Pittsburgh	Pittsburgh	Pittsburgh
+732	Portland	Portland	Portland
+733	Portland St	Portland State	Portland St
+734	Prairie View	Prairie View A&M	Prairie View
+735	Presbyterian	Presbyterian	Presbyterian
+736	Princeton	Princeton	Princeton
+737	Providence	Providence	Providence
+738	Purdue	Purdue	Purdue
+739	Quinnipiac	Quinnipiac	Quinnipiac
+740	Radford	Radford	Radford
+741	Rhode Island	Rhode Island	Rhode Island
+742	Rice	Rice	Rice
+743	Richmond	Richmond	Richmond
+744	Rider	Rider	Rider
+745	Robert Morris	Robert Morris	Rob Morris
+746	Rutgers	Rutgers	Rutgers
+747	S Carolina St	South Carolina State	S Car State
+748	S Dakota St	South Dakota State	S Dakota St
+749	S Illinois	Southern Illinois	S Illinois
+750	Sacred Heart	Sacred Heart	Sacred Hrt
+751	Sam Houston St	Sam Houston State	Sam Hous St
+752	Samford	Samford	Samford
+753	San Diego	San Diego	San Diego
+754	San Diego St	San Diego State	San Diego St
+755	San Francisco	San Francisco	San Fransco
+756	San Jose St	San Jose State	San Jose St
+757	Santa Barbara	UC-Santa Barbara	UCSB
+758	Santa Clara	Santa Clara	Santa Clara
+759	Savannah St	Savannah State	Savannah St
+760	SC Upstate	USC Upstate	SC Upstate
+761	SE Louisiana	Southeastern Louisiana	SE Louisiana
+762	SE Missouri St	Southeast Missouri State	SE Missouri
+763	Seattle	Seattle	Seattle
+764	Seton Hall	Seton Hall	Seton Hall
+765	SF Austin	Stephen F. Austin	Ste F Austin
+766	Siena	Siena	Siena
+767	SMU	Southern Methodist	S Methodist
+768	South Alabama	South Alabama	S Alabama
+769	South Carolina	South Carolina	S Carolina
+770	South Dakota	South Dakota	South Dakota
+771	South Florida	South Florida	S Florida
+772	Southern Miss	Southern Miss	S Mississippi
+773	Southern Univ	Southern University	Southern
+774	Southern Utah	Southern Utah	S Utah
+775	St Bonaventure	St. Bonaventure	St Bonavent
+776	St Francis NY	St. Francis (NY)	St Fran (NY)
+777	St Francis PA	St. Francis (PA)	St Fran (PA)
+778	St John's	St. John's	St Johns
+779	St Joseph's PA	St. Joseph's (PA)	St Josephs
+780	St Louis	Saint Louis	Saint Louis
+781	St Mary's CA	Saint Mary's	St Marys
+782	St Peter's	St. Peter's	St Peters
+783	Stanford	Stanford	Stanford
+784	Stetson	Stetson	Stetson
+785	Stony Brook	Stony Brook	Stony Brook
+786	Syracuse	Syracuse	Syracuse
+787	TAM C. Christi	Texas A&M-Corpus Christi	TX A&M-CC
+788	TCU	TCU	TX Christian
+789	Temple	Temple	Temple
+790	Tennessee	Tennessee	Tennessee
+791	Tennessee St	Tennessee State	TN State
+792	Tennessee Tech	Tennessee Tech	TN Tech
+793	Texas	Texas	Texas
+794	Texas A&M	Texas A&M	Texas A&M
+795	Texas St	Texas State	Texas State
+796	Texas Tech	Texas Tech	Texas Tech
+797	TN Martin	Tennessee-Martin	TN Martin
+798	Toledo	Toledo	Toledo
+799	Towson	Towson	Towson
+800	Troy	Troy	Troy
+801	Tulane	Tulane	Tulane
+802	Tulsa	Tulsa	Tulsa
+803	TX Pan American	Texas-Pan American	TX-Pan Am
+804	TX Southern	Texas Southern	TX Southern
+805	UAB	UAB	UAB
+806	UC Davis	UC Davis	UC Davis
+807	UC Irvine	UC Irvine	UC Irvine
+808	UC Riverside	UC Riverside	UC Riverside
+809	UCF	UCF	Central FL
+810	UCLA	UCLA	UCLA
+811	ULL	Louisiana	LA Lafayette
+812	ULM	Louisiana-Monroe	LA Monroe
+813	UMBC	Maryland-Baltimore County	Maryland BC
+814	UNC Asheville	North Carolina-Asheville	NC-Asheville
+815	UNC Greensboro	North Carolina-Greensboro	NC-Grnsboro
+816	UNC Wilmington	North Carolina-Wilmington	NC-Wilmgton
+817	UNLV	UNLV	UNLV
+818	USC	USC	USC
+819	UT Arlington	Texas-Arlington	TX-Arlington
+820	UT San Antonio	Texas-San Antonio	TX-San Ant
+821	Utah	Utah	Utah
+822	Utah St	Utah State	Utah State
+823	Utah Valley	Utah Valley University	Utah Val St
+824	UTEP	Texas-El Paso	TX El Paso
+825	VA Commonwealth	Virginia Commonwealth	VCU
+826	Valparaiso	Valparaiso	Valparaiso
+827	Vanderbilt	Vanderbilt	Vanderbilt
+828	Vermont	Vermont	Vermont
+829	Villanova	Villanova	Villanova
+830	Virginia	Virginia	Virginia
+831	Virginia Tech	Virginia Tech	VA Tech
+832	VMI	Virginia Military Institute	VA Military
+833	W Carolina	Western Carolina	W Carolina
+834	W Illinois	Western Illinois	W Illinois
+835	W Kentucky	Western Kentucky	W Kentucky
+836	W Michigan	Western Michigan	W Michigan
+837	W Salem St		
+838	Wagner	Wagner	Wagner
+839	Wake Forest	Wake Forest	Wake Forest
+840	Washington	Washington	Wash State
+841	Washington St	Washington State	Washington
+842	Weber St	Weber State	Weber State
+843	West Virginia	West Virginia	W Virginia
+844	WI Green Bay	Green Bay	WI-Grn Bay
+845	WI Milwaukee	Milwaukee	WI-Milwkee
+846	Wichita St	Wichita State	Wichita St
+847	William & Mary	William & Mary	Wm & Mary
+848	Winthrop	Winthrop	Winthrop
+849	Wisconsin	Wisconsin	Wisconsin
+850	Wofford	Wofford	Wofford
+851	Wright St	Wright State	Wright State
+852	Wyoming	Wyoming	Wyoming
+853	Xavier	Xavier	Xavier
+854	Yale	Yale	Yale
+855	Youngstown St	Youngstown State	Youngs St
+856	Incarnate Word	Incarnate Word	Incarnate Word
