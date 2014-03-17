@@ -1,0 +1,660 @@
+"","teamstats.ID","clust.cluster"
+"Florida A&M I593","I593",2
+"Lehigh I644","I644",1
+"Alabama I504","I504",2
+"Southern Illinois I749","I749",1
+"Connecticut I559","I559",3
+"Vermont I828","I828",1
+"DePaul I573","I573",3
+"Dayton I569","I569",2
+"Duke I577","I577",3
+"Alabama State I506","I506",2
+"Gonzaga I607","I607",3
+"Valparaiso I826","I826",2
+"Manhattan I658","I658",2
+"Florida I592","I592",1
+"Maryland I662","I662",3
+"Texas-El Paso I824","I824",2
+"Nevada I699","I699",3
+"Michigan State I671","I671",2
+"North Carolina I708","I708",3
+"Air Force I502","I502",1
+"Seton Hall I764","I764",3
+"Arizona I511","I511",3
+"St. Joseph's (PA) I779","I779",1
+"Liberty I645","I645",1
+"Stanford I783","I783",3
+"Texas-San Antonio I820","I820",2
+"Syracuse I786","I786",3
+"Brigham Young I536","I536",2
+"Texas I793","I793",3
+"Princeton I736","I736",1
+"Texas Tech I796","I796",3
+"Charlotte I546","I546",2
+"Wake Forest I839","I839",2
+"Virginia Commonwealth I825","I825",1
+"Boston College I527","I527",3
+"Utah I821","I821",1
+"Cincinnati I549","I549",2
+"East Tennessee State I586","I586",3
+"Georgia Tech I606","I606",2
+"Northern Iowa I714","I714",1
+"Illinois I623","I623",1
+"Murray State I687","I687",3
+"Kansas I636","I636",3
+"UIC I622","I622",3
+"Kentucky I640","I640",3
+"Memphis I666","I666",1
+"South Carolina I769","I769",1
+"Mississippi State I675","I675",3
+"Monmouth I679","I679",1
+"NC State I695","I695",1
+"Louisiana I811","I811",1
+"Oklahoma State I722","I722",3
+"Eastern Washington I582","I582",2
+"Pacific I727","I727",2
+"Providence I737","I737",1
+"Pittsburgh I731","I731",3
+"UCF I809","I809",1
+"UAB I805","I805",1
+"Washington I840","I840",2
+"Vanderbilt I827","I827",1
+"Western Michigan I836","I836",3
+"Wisconsin I849","I849",2
+"Richmond I743","I743",1
+"Xavier I853","I853",1
+"Louisville I651","I651",1
+"Oakland J718","J718",3
+"Alabama A&M J505","J505",2
+"Arizona J511","J511",3
+"Utah State J822","J822",3
+"Boston College J527","J527",3
+"Pennsylvania J728","J728",2
+"Cincinnati J549","J549",2
+"Iowa J628","J628",2
+"Gonzaga J607","J607",3
+"Winthrop J848","J848",2
+"Illinois J623","J623",1
+"Fairleigh Dickinson J588","J588",1
+"Kentucky J640","J640",3
+"Eastern Kentucky J580","J580",1
+"Nevada J699","J699",3
+"Texas J793","J793",2
+"Oklahoma J721","J721",3
+"Niagara J704","J704",2
+"Pacific J727","J727",2
+"Pittsburgh J731","J731",3
+"Texas Tech J796","J796",3
+"UCLA J810","J810",3
+"UAB J805","J805",2
+"LSU J655","J655",2
+"Utah J821","J821",3
+"Texas-El Paso J824","J824",3
+"Wake Forest J839","J839",2
+"Chattanooga J547","J547",3
+"Washington J840","J840",3
+"Montana J680","J680",2
+"West Virginia J843","J843",1
+"Creighton J562","J562",1
+"Milwaukee J845","J845",1
+"Alabama J504","J504",2
+"Bucknell J533","J533",2
+"Kansas J636","J636",3
+"Connecticut J559","J559",3
+"UCF J809","J809",1
+"Duke J577","J577",2
+"Delaware State J571","J571",2
+"Florida J592","J592",2
+"Ohio J719","J719",2
+"Georgia Tech J606","J606",3
+"George Washington J599","J599",3
+"Iowa State J629","J629",3
+"Minnesota J673","J673",3
+"Louisville J651","J651",2
+"Louisiana J811","J811",3
+"Michigan State J671","J671",3
+"Old Dominion J723","J723",1
+"Mississippi State J675","J675",3
+"Stanford J783","J783",3
+"NC State J695","J695",1
+"Charlotte J546","J546",2
+"North Carolina J708","J708",3
+"Oklahoma State J722","J722",3
+"Southeastern Louisiana J761","J761",3
+"Southern Illinois J749","J749",1
+"Saint Mary's J781","J781",2
+"Vermont J828","J828",1
+"Syracuse J786","J786",3
+"Villanova J829","J829",3
+"New Mexico J701","J701",2
+"Wisconsin J849","J849",1
+"Northern Iowa J714","J714",1
+"Monmouth K679","K679",1
+"Hampton K610","K610",3
+"Alabama K504","K504",3
+"Marquette K660","K660",1
+"Boston College K527","K527",3
+"Pacific K727","K727",1
+"Duke K577","K577",2
+"Southern University K773","K773",3
+"Florida K592","K592",2
+"South Alabama K768","K768",1
+"George Washington K599","K599",3
+"North Carolina-Wilmington K816","K816",1
+"Gonzaga K607","K607",3
+"Xavier K853","K853",2
+"Illinois K623","K623",1
+"Air Force K502","K502",1
+"Indiana K625","K625",1
+"San Diego State K754","K754",2
+"LSU K655","K655",3
+"Iona K627","K627",3
+"Montana K680","K680",1
+"Nevada K699","K699",3
+"Tennessee K790","K790",1
+"Winthrop K848","K848",2
+"Texas A&M K794","K794",2
+"Syracuse K786","K786",1
+"UCLA K810","K810",3
+"Belmont K522","K522",1
+"Washington K840","K840",3
+"Utah State K822","K822",1
+"Milwaukee K845","K845",3
+"Oklahoma K721","K721",3
+"Wichita State K846","K846",1
+"Seton Hall K764","K764",3
+"Arizona K511","K511",3
+"Wisconsin K849","K849",2
+"Bradley K530","K530",3
+"Kansas K636","K636",3
+"Bucknell K533","K533",2
+"Arkansas K515","K515",3
+"Connecticut K559","K559",3
+"Albany K507","K507",2
+"George Mason K602","K602",1
+"Michigan State K671","K671",3
+"Georgetown K603","K603",1
+"Northern Iowa K714","K714",1
+"Kentucky K640","K640",1
+"UAB K805","K805",1
+"Memphis K666","K666",3
+"Oral Roberts K724","K724",3
+"NC State K695","K695",1
+"California K539","K539",2
+"North Carolina K708","K708",3
+"Murray State K687","K687",1
+"Northwestern State K716","K716",3
+"Iowa K628","K628",2
+"Ohio State K720","K720",1
+"Davidson K568","K568",1
+"Pittsburgh K731","K731",3
+"Kent State K639","K639",2
+"Texas K793","K793",3
+"Pennsylvania K728","K728",1
+"Villanova K829","K829",1
+"West Virginia K843","K843",1
+"Southern Illinois K749","K749",1
+"Niagara L704","L704",2
+"Florida A&M L593","L593",2
+"Boston College L527","L527",2
+"Texas Tech L796","L796",2
+"Butler L535","L535",1
+"Old Dominion L723","L723",1
+"Georgetown L603","L603",3
+"Belmont L522","L522",1
+"Indiana L625","L625",1
+"Gonzaga L607","L607",2
+"Louisville L651","L651",1
+"Stanford L783","L783",3
+"Maryland L662","L662",3
+"Davidson L568","L568",1
+"Michigan State L671","L671",3
+"Marquette L660","L660",3
+"North Carolina L708","L708",3
+"Eastern Kentucky L580","L580",1
+"Ohio State L720","L720",1
+"Central Connecticut State L544","L544",1
+"Pittsburgh L731","L731",3
+"Wright State L851","L851",1
+"Texas A&M L794","L794",2
+"Pennsylvania L728","L728",3
+"UCLA L810","L810",1
+"Weber State L842","L842",2
+"Virginia Commonwealth L825","L825",2
+"Duke L577","L577",3
+"Vanderbilt L827","L827",1
+"George Washington L599","L599",3
+"Washington State L841","L841",1
+"Oral Roberts L724","L724",2
+"Xavier L853","L853",2
+"Brigham Young L536","L536",1
+"Florida L592","L592",2
+"Jackson State L632","L632",3
+"Kansas L636","L636",3
+"Kentucky L640","L640",1
+"Villanova L829","L829",2
+"Memphis L666","L666",2
+"North Texas L711","L711",3
+"Nevada L699","L699",1
+"Creighton L562","L562",2
+"Oregon L725","L725",1
+"Miami (OH) L669","L669",1
+"Purdue L738","L738",2
+"Arizona L511","L511",3
+"Southern Illinois L749","L749",2
+"Holy Cross L616","L616",3
+"Tennessee L790","L790",1
+"Long Beach State L647","L647",1
+"Texas L793","L793",1
+"New Mexico State L702","L702",2
+"UNLV L817","L817",1
+"Georgia Tech L606","L606",3
+"USC L818","L818",2
+"Arkansas L515","L515",3
+"Virginia L830","L830",2
+"Albany L507","L507",1
+"Virginia Tech L831","L831",3
+"Illinois L623","L623",1
+"Winthrop L848","L848",1
+"Notre Dame L717","L717",1
+"Wisconsin L849","L849",2
+"Texas A&M-Corpus Christi L787","L787",2
+"Mount St. Mary's M686","M686",2
+"Coppin State M560","M560",3
+"Duke M577","M577",2
+"Belmont M522","M522",1
+"Kansas M636","M636",3
+"Portland State M733","M733",1
+"Kansas State M637","M637",3
+"USC M818","M818",2
+"Marquette M660","M660",3
+"Kentucky M640","M640",2
+"Michigan State M671","M671",3
+"Temple M789","M789",1
+"Notre Dame M717","M717",1
+"George Mason M602","M602",2
+"Pittsburgh M731","M731",3
+"Oral Roberts M724","M724",2
+"Purdue M738","M738",1
+"Baylor M521","M521",1
+"Stanford M783","M783",3
+"Cornell M561","M561",1
+"Texas A&M M794","M794",2
+"Brigham Young M536","M536",1
+"UCLA M810","M810",3
+"Mississippi Valley State M685","M685",2
+"UNLV M817","M817",1
+"Kent State M639","M639",2
+"Washington State M841","M841",1
+"Winthrop M848","M848",1
+"West Virginia M843","M843",1
+"Arizona M511","M511",2
+"Wisconsin M849","M849",3
+"Cal State Fullerton M564","M564",1
+"Xavier M853","M853",2
+"Georgia M604","M604",1
+"Arkansas M515","M515",3
+"Indiana M625","M625",2
+"Butler M535","M535",1
+"South Alabama M768","M768",2
+"Davidson M568","M568",1
+"Gonzaga M607","M607",2
+"Georgetown M603","M603",1
+"Maryland-Baltimore County M813","M813",1
+"Louisville M651","M651",1
+"Boise State M526","M526",1
+"Memphis M666","M666",2
+"Texas-Arlington M819","M819",2
+"Miami (FL) M668","M668",2
+"Saint Mary's M781","M781",1
+"Mississippi State M675","M675",2
+"Oregon M725","M725",1
+"North Carolina M708","M708",3
+"Oklahoma M721","M721",2
+"St. Joseph's (PA) M779","M779",2
+"San Diego M753","M753",3
+"Connecticut M559","M559",3
+"Siena M766","M766",1
+"Vanderbilt M827","M827",1
+"Tennessee M790","M790",1
+"American University M509","M509",1
+"Texas M793","M793",1
+"Austin Peay M519","M519",2
+"Villanova M829","M829",2
+"Clemson M551","M551",1
+"Western Kentucky M835","M835",1
+"Drake M575","M575",1
+"Morehead State N682","N682",3
+"Alabama State N506","N506",3
+"Connecticut N559","N559",3
+"Chattanooga N547","N547",2
+"Duke N577","N577",2
+"Binghamton N524","N524",2
+"Gonzaga N607","N607",1
+"Akron N503","N503",1
+"LSU N655","N655",3
+"Butler N535","N535",2
+"Maryland N662","N662",1
+"California N539","N539",1
+"Memphis N666","N666",3
+"Cal State Northridge N565","N565",1
+"Michigan N670","N670",1
+"Clemson N551","N551",1
+"North Carolina N708","N708",3
+"Radford N740","N740",3
+"Oklahoma N721","N721",2
+"Morgan State N683","N683",3
+"Purdue N738","N738",1
+"Northern Iowa N714","N714",2
+"Texas N793","N793",3
+"Minnesota N673","N673",3
+"Texas A&M N794","N794",2
+"Brigham Young N536","N536",1
+"UCLA N810","N810",1
+"Virginia Commonwealth N825","N825",1
+"Villanova N829","N829",2
+"American University N509","N509",1
+"Western Kentucky N835","N835",1
+"Illinois N623","N623",1
+"Washington N840","N840",3
+"Mississippi State N675","N675",2
+"Arizona N511","N511",3
+"Utah N821","N821",2
+"Arizona State N512","N512",1
+"Temple N789","N789",1
+"Cleveland State N552","N552",3
+"Wake Forest N839","N839",3
+"Dayton N569","N569",3
+"West Virginia N843","N843",3
+"Kansas N636","N636",3
+"North Dakota State N689","N689",1
+"Louisville N651","N651",1
+"Marquette N660","N660",2
+"Utah State N822","N822",3
+"Michigan State N671","N671",3
+"Robert Morris N745","N745",1
+"Missouri N676","N676",3
+"Cornell N561","N561",1
+"Oklahoma State N722","N722",1
+"Tennessee N790","N790",3
+"Pittsburgh N731","N731",3
+"East Tennessee State N586","N586",3
+"Siena N766","N766",3
+"Ohio State N720","N720",1
+"Syracuse N786","N786",3
+"Stephen F. Austin N765","N765",1
+"USC N818","N818",3
+"Boston College N527","N527",3
+"Wisconsin N849","N849",1
+"Florida State N595","N595",2
+"Xavier N853","N853",2
+"Portland State N733","N733",1
+"Arkansas-Pine Bluff O514","O514",2
+"Winthrop O848","O848",3
+"Baylor O521","O521",3
+"Sam Houston State O751","O751",1
+"Butler O535","O535",2
+"Texas-El Paso O824","O824",2
+"Brigham Young O536","O536",1
+"Florida O592","O592",3
+"Kansas O636","O636",3
+"Lehigh O644","O644",2
+"Kansas State O637","O637",2
+"North Texas O711","O711",2
+"Kentucky O640","O640",3
+"East Tennessee State O586","O586",3
+"Murray State O687","O687",3
+"Vanderbilt O827","O827",2
+"New Mexico O701","O701",2
+"Montana O680","O680",1
+"Northern Iowa O714","O714",1
+"UNLV O817","O817",1
+"Ohio O719","O719",2
+"Georgetown O603","O603",3
+"Old Dominion O723","O723",3
+"Notre Dame O717","O717",1
+"Saint Mary's O781","O781",1
+"Richmond O743","O743",1
+"Tennessee O790","O790",3
+"San Diego State O754","O754",3
+"Villanova O829","O829",2
+"Robert Morris O745","O745",2
+"Wake Forest O839","O839",3
+"Texas O793","O793",3
+"Washington O840","O840",3
+"Marquette O660","O660",1
+"California O539","O539",3
+"Louisville O651","O651",1
+"Cornell O561","O561",1
+"Temple O789","O789",1
+"Duke O577","O577",3
+"Georgia Tech O606","O606",3
+"Oklahoma State O722","O722",1
+"Gonzaga O607","O607",2
+"Florida State O595","O595",3
+"Maryland O662","O662",3
+"Houston O617","O617",1
+"Michigan State O671","O671",3
+"New Mexico State O702","O702",1
+"Missouri O676","O676",1
+"Clemson O551","O551",1
+"Ohio State O720","O720",1
+"UC-Santa Barbara O757","O757",2
+"Pittsburgh O731","O731",3
+"Oakland O718","O718",3
+"Purdue O738","O738",2
+"Siena O766","O766",3
+"Syracuse O786","O786",3
+"Vermont O828","O828",2
+"Texas A&M O794","O794",2
+"Utah State O822","O822",1
+"West Virginia O843","O843",3
+"Morgan State O683","O683",3
+"Wisconsin O849","O849",1
+"Wofford O850","O850",2
+"Xavier O853","O853",2
+"Minnesota O673","O673",1
+"Clemson P551","P551",2
+"UAB P805","P805",1
+"North Carolina-Asheville P814","P814",3
+"Arkansas-Little Rock P513","P513",2
+"Texas-San Antonio P820","P820",2
+"Alabama State P506","P506",2
+"Virginia Commonwealth P825","P825",1
+"USC P818","P818",1
+"Butler P535","P535",1
+"Old Dominion P723","P723",3
+"Brigham Young P536","P536",1
+"Wofford P850","P850",2
+"Cincinnati P549","P549",3
+"Missouri P676","P676",1
+"Connecticut P559","P559",3
+"Bucknell P533","P533",1
+"Florida P592","P592",3
+"UC-Santa Barbara P757","P757",1
+"Gonzaga P607","P607",3
+"St. John's P778","P778",2
+"Kansas State P637","P637",2
+"Utah State P822","P822",2
+"Kentucky P640","P640",1
+"Princeton P736","P736",1
+"Morehead State P682","P682",3
+"Louisville P651","P651",1
+"Pittsburgh P731","P731",3
+"Richmond P743","P743",1
+"Vanderbilt P827","P827",2
+"San Diego State P754","P754",3
+"Northern Colorado P688","P688",2
+"Temple P789","P789",1
+"Penn State P729","P729",1
+"UCLA P810","P810",3
+"Michigan State P671","P671",1
+"West Virginia P843","P843",3
+"Wisconsin P849","P849",1
+"Belmont P522","P522",1
+"Arizona P511","P511",2
+"Memphis P666","P666",3
+"Duke P577","P577",1
+"Hampton P610","P610",2
+"Florida State P595","P595",2
+"Texas A&M P794","P794",2
+"George Mason P602","P602",2
+"Villanova P829","P829",2
+"Illinois P623","P623",1
+"UNLV P817","P817",3
+"Kansas P636","P636",3
+"Boston University P528","P528",1
+"Marquette P660","P660",3
+"Xavier P853","P853",2
+"Michigan P670","P670",1
+"Tennessee P790","P790",3
+"North Carolina P708","P708",3
+"Long Island P648","P648",2
+"Notre Dame P717","P717",2
+"Akron P503","P503",1
+"Ohio State P720","P720",1
+"Purdue P738","P738",1
+"St. Peter's P782","P782",2
+"Syracuse P786","P786",3
+"Indiana State P626","P626",1
+"Texas P793","P793",3
+"Oakland P718","P718",2
+"Georgetown P603","P603",1
+"Washington P840","P840",1
+"Georgia P604","P604",3
+"Brigham Young Q536","Q536",1
+"Iona Q627","Q627",1
+"Western Kentucky Q835","Q835",2
+"Mississippi Valley State Q685","Q685",1
+"South Florida Q771","Q771",3
+"California Q539","Q539",3
+"Vermont Q828","Q828",3
+"Lamar Q643","Q643",3
+"Baylor Q521","Q521",3
+"South Dakota State Q748","Q748",1
+"Colorado Q556","Q556",2
+"UNLV Q817","Q817",1
+"Gonzaga Q607","Q607",2
+"West Virginia Q843","Q843",3
+"Indiana Q625","Q625",2
+"New Mexico State Q702","Q702",3
+"Iowa State Q629","Q629",1
+"Connecticut Q559","Q559",3
+"Kansas State Q637","Q637",3
+"Southern Miss Q772","Q772",2
+"Kentucky Q640","Q640",3
+"Louisville Q651","Q651",3
+"Davidson Q568","Q568",1
+"Marquette Q660","Q660",3
+"Murray State Q687","Q687",2
+"Colorado State Q557","Q557",2
+"New Mexico Q701","Q701",1
+"Long Beach State Q647","Q647",2
+"Ohio State Q720","Q720",3
+"Loyola (MD) Q653","Q653",3
+"Syracuse Q786","Q786",3
+"North Carolina-Asheville Q814","Q814",2
+"Virginia Commonwealth Q825","Q825",1
+"Wichita State Q846","Q846",1
+"Vanderbilt Q827","Q827",1
+"Harvard Q612","Q612",2
+"Wisconsin Q849","Q849",1
+"Montana Q680","Q680",2
+"Cincinnati Q549","Q549",1
+"Texas Q793","Q793",3
+"Creighton Q562","Q562",1
+"Alabama Q504","Q504",3
+"Florida Q592","Q592",1
+"Virginia Q830","Q830",1
+"Florida State Q595","Q595",1
+"St. Bonaventure Q775","Q775",3
+"Georgetown Q603","Q603",3
+"Belmont Q522","Q522",1
+"Kansas Q636","Q636",3
+"Detroit Q574","Q574",3
+"Lehigh Q644","Q644",1
+"Duke Q577","Q577",2
+"Michigan State Q671","Q671",3
+"Long Island Q648","Q648",2
+"NC State Q695","Q695",3
+"San Diego State Q754","Q754",3
+"Norfolk State Q707","Q707",2
+"Missouri Q676","Q676",1
+"North Carolina Q708","Q708",3
+"Ohio Q719","Q719",1
+"Michigan Q670","Q670",1
+"Purdue Q738","Q738",1
+"Saint Mary's Q781","Q781",1
+"Temple Q789","Q789",1
+"Saint Louis Q780","Q780",1
+"Memphis Q666","Q666",2
+"Xavier Q853","Q853",3
+"Notre Dame Q717","Q717",1
+"North Carolina A&T R693","R693",2
+"Liberty R645","R645",2
+"Saint Mary's R781","R781",1
+"Middle Tennessee State R672","R672",3
+"James Madison R635","R635",1
+"Long Island R648","R648",2
+"La Salle R641","R641",1
+"Boise State R526","R526",1
+"Arizona R511","R511",1
+"Belmont R522","R522",1
+"Butler R535","R535",2
+"Bucknell R533","R533",3
+"California R539","R539",3
+"UNLV R817","R817",1
+"Colorado State R557","R557",3
+"Missouri R676","R676",3
+"Gonzaga R607","R607",3
+"Southern University R773","R773",1
+"Harvard R612","R612",2
+"New Mexico R701","R701",2
+"Louisville R651","R651",3
+"Marquette R660","R660",3
+"Davidson R568","R568",1
+"Memphis R666","R666",3
+"Michigan R670","R670",1
+"South Dakota State R748","R748",1
+"Michigan State R671","R671",3
+"Valparaiso R826","R826",2
+"Oregon R725","R725",3
+"Oklahoma State R722","R722",2
+"Saint Louis R780","R780",2
+"New Mexico State R702","R702",3
+"Syracuse R786","R786",3
+"Montana R680","R680",2
+"Virginia Commonwealth R825","R825",1
+"Akron R503","R503",1
+"Wichita State R846","R846",3
+"Pittsburgh R731","R731",3
+"Creighton R562","R562",1
+"Cincinnati R549","R549",1
+"Duke R577","R577",2
+"Albany R507","R507",2
+"Florida Gulf Coast R591","R591",1
+"Georgetown R603","R603",1
+"Florida R592","R592",1
+"Northwestern State R716","R716",3
+"Illinois R623","R623",1
+"Colorado R556","R556",2
+"Indiana R625","R625",2
+"Iowa State R629","R629",1
+"Notre Dame R717","R717",1
+"Kansas R636","R636",3
+"Western Kentucky R835","R835",2
+"Kansas State R637","R637",1
+"Miami (FL) R668","R668",1
+"Pacific R727","R727",1
+"Minnesota R673","R673",3
+"UCLA R810","R810",3
+"Ole Miss R674","R674",2
+"Wisconsin R849","R849",1
+"North Carolina R708","R708",1
+"Villanova R829","R829",2
+"Ohio State R720","R720",1
+"Iona R627","R627",1
+"San Diego State R754","R754",1
+"Oklahoma R721","R721",3
+"Temple R789","R789",1
+"NC State R695","R695",3

@@ -24,14 +24,6 @@ for row in dr:
     team_dict[row['ss_name']] = row['id']
     tr_team_dict[row['tr_name']] = unidecode(row['id'])
 
-# Read in team clusters
-infile = open(os.path.join(indir, 'team_clusters.csv'))
-dr = csv.DictReader(infile)
-clust_dict = {}
-for row in dr:
-    clust_dict[row['teamstats.ID']] = row['clust.cluster']
-    
-    
 # Read in home/away losses
 infile = open(os.path.join('training_set', 'win_data.csv'))
 dr = csv.DictReader(infile)
@@ -41,13 +33,6 @@ for row in dr:
     del(row['ID'])
     win_dict[myid] = row
 
-# Read in win eigenvector scores
-infile = open(os.path.join(indir, 'eigenscores.csv'))
-dr = csv.DictReader(infile)
-eigen_dict = {}
-for row in dr:
-    eigen_dict[row['ID']] = row
-    
 # Read in TeamRankings data
 tr_dict = {}
 for yrs, season in season_dict.items():
@@ -57,7 +42,6 @@ for yrs, season in season_dict.items():
         defeff = open(os.path.join(indir, 'EFF/'+yrs+'D.csv'))
         SOS = open(os.path.join(indir, 'SOS/' + yrs + 'SOS.csv'))
         ESC = open(os.path.join(indir, 'ESC/'+yrs +'ESC.csv'))
-        
     except IOError:
         'No data for season: %s' %yrs
     else:
@@ -82,7 +66,7 @@ for yrs, season in season_dict.items():
                 tr_dict.setdefault(teamid, {})['SOS'] = row['Rating']
         for row in escdr:
             teamid = season + tr_team_dict[unidecode(row['Team']).strip()]
-            tr_dict.setdefault(teamid, {})['ESC'] = row[yr]
+            #            tr_dict.setdefault(teamid, {})['ESC'] = row[yr]
 
 # Read in StatSheet data and merge
 all_teams = {}
@@ -121,45 +105,24 @@ for yrs, season in season_dict.items():
                     print 'No TeamRankings data for team: %s' %team['Team Name']
                 else:
                     outdict.update(trdata)
-                    
-                try:
-                    evdata = eigen_dict[teamid]
-                except KeyError:
-                    print 'No Eigenvector scores for team: %s' %team['Team Name']
-                else:
-                    outdict.update(evdata)
-                    
+
+                outdict['ID'] = teamid
                 #del(outdict['Team Name Opp'])
 
+
+
                 outdict.update(windata)
-
-                try:
-                    outdict['Pace Forcing'] =  abs(float(outdict['Possessions Per 40 minutes']) - float(outdict['Possessions Per 40 minutes Opp']))
-                except KeyError:
-                    print 'No Pace Forcing scores for team: %s' %team['Team Name']
-
 
                 all_teams[teamid] = outdict
 
 header.extend(win_dict.values()[0].keys())
 header.extend([x + ' Opp' for x in header])
 header.append('ID')
-header.extend(['OffEff','DefEff', 'SOS', 'ESC', 'locwtevcent', 'uwevcent','scwtevcent', 'revevcent', 'Pace Forcing'])
 
 outfile = open(os.path.join(outdir, 'team_stats.csv'), 'wb')
 tsdw = csv.DictWriter(outfile, fieldnames = header)
 tsdw.writeheader()
 written_teams = set()
-
-# Read in info on previous matchups
-infile = open('training_set/winlose_network.csv')
-dr = csv.DictReader(infile,fieldnames = ['lteam','wteam','scoreratio','loc'])
-prev_matches = {}
-for row in dr:
-    wgamekey = (row['wteam'], row['lteam'])
-    lgamekey = (row['lteam'], row['wteam'])
-    prev_matches[wgamekey] = prev_matches.get(wgamekey,0) + float(row['scoreratio'])
-    prev_matches[lgamekey] = prev_matches.get(lgamekey,0) - float(row['scoreratio'])
 
 # Generate training set of games
 infile = open(os.path.join(indir, 'tourney_results.csv'))
@@ -171,12 +134,13 @@ outarr = []
 header.insert(0, 'scorediff')
 header.insert(1, 'scoreratio')
 header.insert(2, 'year')
-header.extend(['daynum','numot','class_matchup'])
+header.extend(['daynum','numot','OffEff','DefEff', 'SOS', 'ESC'])
+dw = csv.DictWriter(outfile, fieldnames = header)
 
 for game in dr:    
     wid = game['season'] + game['wteam']
     lid = game['season'] + game['lteam']
-    gamekey = (wid,lid)
+
     try:
         wstats = all_teams[wid]
         lstats = all_teams[lid]
@@ -186,14 +150,8 @@ for game in dr:
         outdict = {'daynum' : int(game['daynum']),
                    'year' : int(rev_season_dict[game['season']][:4]),
                    'scorediff' : int(game['wscore']) - int(game['lscore']),
-                   'scoreratio' : math.log( float(game['wscore']) / float(game['lscore'])),
-                   'class_matchup' : int(clust_dict[wid] + clust_dict[lid])}
+                   'scoreratio' : math.log( float(game['wscore']) / float(game['lscore']))}
 
-        if gamekey in prev_matches:
-            outdict['prev_matches'] = prev_matches[gamekey]
-        else:
-            outdict['prev_matches'] = 0
-        
         if wid not in written_teams:
             tsdw.writerow(all_teams[wid])
             written_teams.add(wid)
@@ -219,41 +177,17 @@ for game in dr:
             if wstat == 0:
                 wstat = 1
             try:
-                if key == 'ESC':
-                    outdict[key] = wstat-lstat
-                else:
-                    outdict[key] = math.log(wstat/lstat)
+                outdict[key] = math.log(wstat/lstat)
             except:
                 print 'Log Error %s: wstat - float(%s); lstat - float(%s) ' %(key, wstat, lstat)
 
-        def get_logratio(statA, statB, Loser = False):
-            if Loser:
-                Astats = lstats
-                Bstats = wstats
-            else:
-                Astats = wstats
-                Bstats = lstats
 
-            return math.log(float(Astats[statA])/float(Bstats[statB]))
-                        
+        outarr.append(outdict)
         losedict = dict([(key,(-val)) for key,val in outdict.items()])
         losedict['daynum'] = game['daynum']
         losedict['year'] = int(rev_season_dict[game['season']][:4]),
-        losedict['class_matchup'] = clust_dict[lid] + clust_dict[wid]
-
-        for statdict,wl in [(outdict,False),(losedict,True)]:
-            statdict['foulrate 2 FTR'] = get_logratio('Fouls Per Game','Free Throw Rate',wl)
-            statdict['foulrate 2 FTPct'] =  get_logratio('Fouls Per Game', 'Free Throw Pct',wl)
-            statdict['DefReb 2 OffReb'] = get_logratio('Defensive Reb Pct', 'Offensive Reb Pct',wl)
-            statdict['3 pt Weakness Pct'] = get_logratio('3-pt Field Goal Point Pct Opp', '3-pt Field Goal Pct',wl)
-            statdict['3 pt Weakness Point Pct']  = get_logratio('3-pt Field Goal Point Pct Opp', '3-pt Field Goal Point Pct',wl)
-            statdict['TO 2 Steal'] = get_logratio('Turnover Pct', 'Steal Pct',wl)
-        
-        outarr.append(outdict)
         outarr.append(losedict)
-        
-header.extend(['prev_matches','foulrate 2 FTR', 'foulrate 2 FTPct', '3 pt Weakness Pct', '3 pt Weakness Point Pct', 'DefReb 2 OffReb', 'TO 2 Steal'])
-dw = csv.DictWriter(outfile, fieldnames = header)
+
 dw.writeheader()
 dw.writerows(outarr)
             
