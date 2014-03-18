@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 url = "http://www.teamrankings.com/ajax/league/v3/player-stats_controller.php"
-dat = {'league': 'ncb', 'stat_id' : '4026', 'split': '', 'rate': 'season-totals'}
+dat = {'league': 'ncb', 'stat_id' : '4026', 'split': '', 'rate': 'per-game'}
 
 seasons = [('304','2006-2007'),('305','2007-2008'),('306','2008-2009'),('307','2009-2010'),('308','2010-2011'),('309','2011-2012'),('310','2012-2013'),('311','2013-2014')]
 
