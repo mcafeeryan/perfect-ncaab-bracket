@@ -426,11 +426,11 @@ Brigham Young,Chris Collinsworth,81,205,Freshman
 Brigham Young,Lee Cummard,79,185,Junior
 Brigham Young,Jimmer Fredette,74,190,Freshman
 Brigham Young,Vuk Ivanovic,82,250,Senior
-Brigham Young,Michael Loyd, Jr.,73,170,Freshman
+Brigham Young,Michael Loyd Jr.,73,170,Freshman
 Brigham Young,Gavin MacGregor,82,235,Junior
 Brigham Young,Nick Martineau,71,170,Freshman
 Brigham Young,Chris Miles,83,235,Sophomore
-Brigham Young,Lamont Morgan, Jr.,70,170,Junior
+Brigham Young,Lamont Morgan Jr.,70,170,Junior
 Brigham Young,Ben Murdock,74,185,Senior
 Brigham Young,Matt Pinegar,72,185,Freshman
 Brigham Young,Trent Plaisted,83,245,Junior
@@ -812,7 +812,7 @@ College of Charleston,Dustin Scott,80,220,Junior
 College of Charleston,Jeremy Simmons,80,225,Freshman
 College of Charleston,Tauras Skripkauskas,77,200,Sophomore
 College of Charleston,Jordan Turok,73,180,Freshman
-College of Charleston,Tony White, Jr.,72,150,Sophomore
+College of Charleston,Tony White Jr.,72,150,Sophomore
 College of Charleston,Antwaine Wiggins,79,180,Freshman
 Colorado,Trent Beckley,82,230,Sophomore
 Colorado,Javon Coney,76,205,Freshman
@@ -4744,3 +4744,324 @@ Virginia Commonwealth,Brandon Rozzell,74,170,Freshman
 Virginia Commonwealth,Larry Sanders,81,205,Freshman
 Virginia Commonwealth,Jamal Shuler,75,180,Senior
 Virginia Commonwealth,Gerard Smith,70,170,Freshman
+Team,Player,Height,Weight,Age
+Virginia Military Institute,Willie Bell,77,205,Junior
+Virginia Military Institute,Quinn Brownfield,79,195,Freshman
+Virginia Military Institute,Joey Cantafio,66,150,Freshman
+Virginia Military Institute,Chavis Holmes,76,195,Junior
+Virginia Military Institute,Travis Holmes,76,195,Junior
+Virginia Military Institute,Hunter Houston,78,195,Freshman
+Virginia Military Institute,Christian Hunter,74,180,Freshman
+Virginia Military Institute,Carl Josey,76,195,Sophomore
+Virginia Military Institute,Austin Kenon,71,180,Freshman
+Virginia Military Institute,Adam Lonon,71,175,Sophomore
+Virginia Military Institute,Nick Matson,74,190,Junior
+Virginia Military Institute,Tim Maypray,,0,
+Virginia Military Institute,Travis Mosley,79,195,Freshman
+Virginia Military Institute,Stephen Sargent,84,245,Freshman
+Virginia Military Institute,Reggie Williams,78,195,Senior
+Virginia Tech,Jeff Allen,79,258,Freshman
+Virginia Tech,Tom Amalfe,72,170,Freshman
+Virginia Tech,Terrell Bell,78,195,Freshman
+Virginia Tech,Paul Debnam,75,195,Sophomore
+Virginia Tech,Malcolm Delaney,75,170,Freshman
+Virginia Tech,Cheick Diakite,81,217,Junior
+Virginia Tech,Dorenzo Hudson,77,220,Freshman
+Virginia Tech,J.T. Thompson,78,210,Freshman
+Virginia Tech,Hank Thorns,69,175,Freshman
+Virginia Tech,Marcus Travis,75,205,Senior
+Virginia Tech,A.D. Vassallo,78,216,Junior
+Virginia Tech,Terrance Vinson,80,215,Sophomore
+Virginia Tech,Deron Washington,79,202,Senior
+Virginia Tech,Lewis Witcher,81,218,Sophomore
+Wagner,T.J. Czeski,74,190,Sophomore
+Wagner,Justin Drummond,78,190,Junior
+Wagner,Doug Elwell,77,180,Sophomore
+Wagner,Clayfell Harris,80,235,Freshman
+Wagner,Radford Llewchean,,0,
+Wagner,Joey Mundweiler,74,185,Junior
+Wagner,Michael Orock,79,220,Sophomore
+Wagner,Mark Porter,74,205,Senior
+Wagner,Llewchean Radford,76,230,Sophomore
+Wagner,Jamal Smith,77,215,Junior
+Wagner,Clifton Spiller,79,225,Freshman
+Wagner,Caleb Stratton,74,185,Freshman
+Wagner,Brian Szczepanski,83,270,Freshman
+Wagner,James Ulrich,79,220,Senior
+Wagner,Durell Vinson,79,215,Senior
+Wake Forest,Gary Clark,76,185,Freshman
+Wake Forest,Harvey Hale,74,190,Junior
+Wake Forest,Bobby Hoekstra,79,225,Junior
+Wake Forest,James Johnson,80,235,Freshman
+Wake Forest,Mike Lepore,73,165,Junior
+Wake Forest,Chas McFarland,84,225,Sophomore
+Wake Forest,Jamie Skeen,80,245,Sophomore
+Wake Forest,Ishmael Smith,72,165,Sophomore
+Wake Forest,Matt Smith,74,185,Junior
+Wake Forest,Cameron Stanley,78,205,Junior
+Wake Forest,Jeff Teague,74,175,Freshman
+Wake Forest,David Weaver,82,240,Sophomore
+Wake Forest,L.D. Williams,76,205,Sophomore
+Washington,Ryan Appleby,74,170,Senior
+Washington,Jon Brockman,79,245,Junior
+Washington,Matthew Bryan-Amaning,81,220,Freshman
+Washington,Justin Dentmon,71,185,Junior
+Washington,Darnell Gant,80,210,Freshman
+Washington,Justin Holiday,78,180,Freshman
+Washington,Tim Morris,76,215,Senior
+Washington,Adrian Oliver,75,180,Sophomore
+Washington,Venoy Overton,72,165,Freshman
+Washington,Quincy Pondexter,79,220,Sophomore
+Washington,Joel Smith,76,205,Junior
+Washington,Artem Wallace,80,230,Junior
+Washington,Joe Wolfinger,84,245,Sophomore
+Washington State,Thomas Abercrombie,78,191,Freshman
+Washington State,Aron Baynes,82,270,Junior
+Washington State,Fabian Boeke,83,230,Freshman
+Washington State,Robbie Cowgill,82,211,Senior
+Washington State,Jeremy Cross,74,207,Senior
+Washington State,Charlie Enquist,82,204,Freshman
+Washington State,Caleb Forrest,80,228,Junior
+Washington State,Daven Harmeling,79,216,Junior
+Washington State,Chris Henry,81,256,Junior
+Washington State,Nikola Koprivica,78,211,Sophomore
+Washington State,Abe Lodwick,79,180,Freshman
+Washington State,Derrick Low,74,196,Senior
+Washington State,Taylor Rochestie,73,186,Junior
+Washington State,Stephen Sauls,75,195,Freshman
+Washington State,Kyle Weaver,78,201,Senior
+Weber State,Drew Arnold,81,250,Junior
+Weber State,T.J. Benson,71,175,Sophomore
+Weber State,Tyler Billings,80,225,Senior
+Weber State,Kyle Bullinger,78,205,Freshman
+Weber State,G.B. Burningham,78,210,Junior
+Weber State,Josh Cottle,71,170,Sophomore
+Weber State,Daviin Davis,76,200,Junior
+Weber State,Dezmon Harris,73,175,Senior
+Weber State,Danny Johnson,79,215,Freshman
+Weber State,Darin Mahoney,80,215,Freshman
+Weber State,Kellen McCoy,66,175,Junior
+Weber State,Trevor Morris,81,240,Freshman
+Weber State,Jamaine Nance,73,190,Junior
+Weber State,Steve Panos,80,230,Sophomore
+Weber State,Juan Pablo Silveira,75,185,Sophomore
+Weber State,Arturas Valeika,81,225,Senior
+Weber State,Brody Van Brocklin,74,180,Junior
+West Virginia,Joe Alexander,80,230,Junior
+West Virginia,Jarrett Brown,76,220,Sophomore
+West Virginia,Da`Sean Butler,79,225,Sophomore
+West Virginia,John Flowers,79,195,Freshman
+West Virginia,Jacob Green,,0,
+West Virginia,Joe Mazzulla,74,210,Sophomore
+West Virginia,Darris Nichols,75,200,Senior
+West Virginia,Cameron Payne,76,200,Freshman
+West Virginia,Alex Ruoff,78,215,Junior
+West Virginia,Jamie Smalligan,84,265,Senior
+West Virginia,Wellington Smith,79,215,Sophomore
+West Virginia,Josh Sowards,79,205,Sophomore
+West Virginia,Ted Talkington,74,200,Junior
+West Virginia,Will Thomas,77,205,Freshman
+West Virginia,Cam Thoroughman,79,215,Freshman
+West Virginia,Jonnie West,75,175,Freshman
+Western Carolina,Nick Aldridge,,0,
+Western Carolina,Josh Dees,73,185,Senior
+Western Carolina,Blake Gallagher,80,240,Freshman
+Western Carolina,Brandon Giles,78,200,Sophomore
+Western Carolina,Richie Gordon,80,238,Freshman
+Western Carolina,Arnold Gore,78,210,Senior
+Western Carolina,Tim Magowan,,0,
+Western Carolina,Negus McKenna,76,225,Senior
+Western Carolina,Camden Miller,,0,
+Western Carolina,Mike Porrini,,0,
+Western Carolina,Jake Robinson,80,205,Sophomore
+Western Carolina,Brigham Waginger,74,175,Sophomore
+Western Carolina,Eric Wilson,73,210,Senior
+Western Illinois,Nikola Bodic,77,215,Junior
+Western Illinois,Ceola Clark III,75,180,Freshman
+Western Illinois,David Dubois,77,215,Junior
+Western Illinois,Larry Dumas,74,180,Freshman
+Western Illinois,Chris Gonzalez,80,190,Senior
+Western Illinois,James Granstra,82,245,Freshman
+Western Illinois,David Jackson,76,190,Senior
+Western Illinois,Delvon Johnson,80,210,Freshman
+Western Illinois,Louis Johnson,80,230,Senior
+Western Illinois,Arsenio Mims,75,200,Freshman
+Western Illinois,David Nurse,74,175,Sophomore
+Western Illinois,Jerryck Owens-Murray,72,225,Senior
+Western Illinois,Josh Rivers,72,170,Junior
+Western Illinois,Patrick Stoudamire,71,190,Sophomore
+Western Illinois,James Washington,79,225,Freshman
+Western Kentucky,Japeth Aguilar,81,210,Junior
+Western Kentucky,Tyrone Brazelton,72,180,Senior
+Western Kentucky,Jeremy Evans,81,190,Sophomore
+Western Kentucky,B.J. Frazier,79,210,Freshman
+Western Kentucky,Desire Gabou,74,190,Junior
+Western Kentucky,Adam Howard,71,180,Senior
+Western Kentucky,Courtney Lee,77,200,Senior
+Western Kentucky,D.J. Magley,81,260,Freshman
+Western Kentucky,Matt Maresca,80,220,Junior
+Western Kentucky,Orlando Mendez-Valdez,73,180,Junior
+Western Kentucky,A'Darius Pegues,82,230,Sophomore
+Western Kentucky,Steffphon Pettigrew,77,220,Freshman
+Western Kentucky,Ty Rogers,75,195,Senior
+Western Kentucky,Boris Siakam,79,225,Senior
+Western Kentucky,A.J. Slaughter,75,180,Sophomore
+Western Kentucky,Mike Walker,79,220,Senior
+Western Michigan,Derek Drews,77,224,Junior
+Western Michigan,Derek Fracalossi,77,203,Senior
+Western Michigan,Shawntes Gary,74,207,Junior
+Western Michigan,Juston Hairston,77,215,Freshman
+Western Michigan,Andrew Hershberger,79,223,Senior
+Western Michigan,Dan Hess,79,225,Senior
+Western Michigan,David Kool,75,200,Sophomore
+Western Michigan,Silver Laku,74,180,Senior
+Western Michigan,Donald Lawson,81,234,Sophomore
+Western Michigan,Martelle McLemore,77,198,Sophomore
+Western Michigan,Michael Redell,72,183,Junior
+Western Michigan,Joe Reitz,79,256,Senior
+Western Michigan,Andre Ricks,69,159,Junior
+Western Michigan,Alex Wolf,71,198,Freshman
+Western Michigan,Jon Workman,81,220,Sophomore
+Wichita State,Matt Braeuer,71,159,Senior
+Wichita State,Brett Burley,79,226,Freshman
+Wichita State,Arbry Butler,80,198,Freshman
+Wichita State,Ramon Clemente,78,221,Junior
+Wichita State,P.J. Couisnard,76,217,Senior
+Wichita State,J.T. Durley,79,237,Freshman
+Wichita State,Aaron Ellis,79,197,Freshman
+Wichita State,Mantas Griskenas,79,210,Junior
+Wichita State,Lance Harris,74,181,Senior
+Wichita State,Graham Hatch,76,206,Freshman
+Wichita State,A.J. Hawkins,77,200,Junior
+Wichita State,Gal Mekel,75,198,Sophomore
+Wichita State,Bret Michael,72,178,Freshman
+Wichita State,Ehimen Orukpe,84,220,Freshman
+Wichita State,Wendell Preadom,73,199,Junior
+Wichita State,Phillip Thomasson,79,230,Senior
+William & Mary,Marcus Barnett,,0,
+William & Mary,Kyle Carrabine,79,210,Senior
+William & Mary,Chris Darnell,81,235,Junior
+William & Mary,Steven Hess,82,235,Sophomore
+William & Mary,Laimis Kisielius,80,225,Senior
+William & Mary,Marcus Kitts,81,210,Freshman
+William & Mary,Vali Lazarescu,76,190,Freshman
+William & Mary,Nathan Mann,74,190,Senior
+William & Mary,David Schneider,75,175,Sophomore
+William & Mary,John Sexton,75,190,Freshman
+William & Mary,Nils-Paul Skara,73,195,Freshman
+William & Mary,Alex Smith,77,250,Junior
+William & Mary,Peter Stein,81,235,Junior
+William & Mary,Chris Stratton,78,225,Senior
+William & Mary,Danny Sumner,79,205,Sophomore
+Winthrop,Andy Buechert,81,230,Junior
+Winthrop,Justin Burton,70,170,Freshman
+Winthrop,Charles Corbin,78,226,Freshman
+Winthrop,Byron Faison,73,198,Freshman
+Winthrop,Chris Gaynor,70,164,Senior
+Winthrop,Antwon Harris,75,204,Senior
+Winthrop,Michael Jenkins,75,195,Senior
+Winthrop,Chris Malcolm,79,204,Freshman
+Winthrop,Taj McCullough,79,222,Senior
+Winthrop,Jonathan Rice,77,231,Junior
+Winthrop,Mantoris Robinson,77,202,Sophomore
+Winthrop,George Valentine,80,223,Freshman
+Winthrop,Marc-David Vil,76,186,Freshman
+Wisconsin,Jason Bohannon,74,198,Sophomore
+Wisconsin,Tanner Bronson,71,170,Senior
+Wisconsin,Brian Butch,83,235,Senior
+Wisconsin,Morris Cain,77,210,Junior
+Wisconsin,Michael Flowers,74,183,Senior
+Wisconsin,J.P. Gavinski,83,255,Freshman
+Wisconsin,Kevin Gullikson,79,240,Junior
+Wisconsin,Trevon Hughes,72,193,Sophomore
+Wisconsin,Tim Jarmusz,78,200,Freshman
+Wisconsin,Joe Krabbenhoft,79,220,Junior
+Wisconsin,Marcus Landry,79,222,Junior
+Wisconsin,Jon Leuer,82,208,Freshman
+Wisconsin,Keaton Nankivil,80,245,Freshman
+Wisconsin,Wquinton Smith,71,200,Freshman
+Wisconsin,Greg Stiemsma,83,260,Senior
+Wisconsin,Brett Valentyn,76,193,Freshman
+Wofford,Andrew Bellebaum,79,195,Sophomore
+Wofford,Drew Crowell,81,215,Freshman
+Wofford,Noah Dahlman,78,220,Freshman
+Wofford,Matt Estep,75,200,Junior
+Wofford,Drew Gibson,74,195,Senior
+Wofford,Corey Godzinski,80,210,Sophomore
+Wofford,Marcus Jackson,73,198,Junior
+Wofford,Tim Johnson,77,230,Freshman
+Wofford,Terry Martin,78,215,Freshman
+Wofford,Shane Nichols,72,195,Senior
+Wofford,Norm Nixon,72,180,Sophomore
+Wofford,Isaac Rankin,77,205,Freshman
+Wofford,Junior Salters,73,185,Sophomore
+Wofford,Tyler Whatley,81,220,Junior
+Wright State,Todd Brown,77,190,Sophomore
+Wright State,Vaughn Duggins,75,180,Sophomore
+Wright State,N`Gai Evans,73,165,Freshman
+Wright State,John David Gardner,76,190,Sophomore
+Wright State,Will Graham,73,175,Junior
+Wright State,Gavin Horne,80,215,Junior
+Wright State,Cooper Land,80,215,Freshman
+Wright State,Jordan Pleiman,80,240,Senior
+Wright State,Kyle Pressley,81,220,Freshman
+Wright State,Troy Tabler,75,185,Freshman
+Wright State,Ronnie Thomas,81,240,Sophomore
+Wright State,Scottie Wilson,78,215,Senior
+Wyoming,Travis Bunker,77,200,Junior
+Wyoming,Ryan Dermody,80,205,Sophomore
+Wyoming,Brandon Ewing,74,190,Junior
+Wyoming,Byron Geis,75,195,Senior
+Wyoming,Tyson Johnson,78,235,Junior
+Wyoming,Brad Jones,73,190,Senior
+Wyoming,Mikhail Linskens,84,270,Freshman
+Wyoming,Marios Matalon,73,185,Freshman
+Wyoming,Afam Muojeke,78,190,Freshman
+Wyoming,Travis Nelson,83,235,Sophomore
+Wyoming,Eric Platt,77,205,Sophomore
+Wyoming,Bienvenu Songondo,82,220,Junior
+Wyoming,Joseph Taylor,80,210,Senior
+Wyoming,Adam Waddell,81,215,Freshman
+Xavier,C.J. Anderson,78,220,Junior
+Xavier,Charles Bronson,81,232,Junior
+Xavier,Derrick Brown,80,225,Sophomore
+Xavier,Stanley Burrell,75,210,Senior
+Xavier,Stephen Duckett,76,190,Freshman
+Xavier,Josh Duncan,81,238,Senior
+Xavier,Adrion Graves,76,201,Sophomore
+Xavier,Joe Hughes,78,200,Freshman
+Xavier,Dante` Jackson,77,205,Freshman
+Xavier,Drew Lavender,67,153,Senior
+Xavier,Jason Love,81,255,Sophomore
+Xavier,B.J. Raymond,78,226,Junior
+Yale,Chris Andrews,,0,
+Yale,Porter Braswell,73,185,Freshman
+Yale,Josh Davis,80,220,Sophomore
+Yale,Garrett Fiddler,81,225,Freshman
+Yale,Eric Flato,73,185,Senior
+Yale,Jordan Gibson,77,185,Sophomore
+Yale,Ari Greenberg,72,180,Junior
+Yale,Caleb Holmes,78,200,Senior
+Yale,Nick Holmes,78,200,Senior
+Yale,Matt Kyle,82,215,Senior
+Yale,Raffi Mantilla,75,185,Freshman
+Yale,Ross Morin,79,215,Junior
+Yale,Paul Nelson,82,220,Sophomore
+Yale,Travis Pinick,78,190,Junior
+Yale,Michael Sands,79,210,Freshman
+Yale,Alex Zampier,75,185,Sophomore
+Youngstown State,John Barber,79,220,Senior
+Youngstown State,Dan Boudler,80,240,Freshman
+Youngstown State,Vance Cooksey,72,170,Freshman
+Youngstown State,George Cotal,77,200,Senior
+Youngstown State,Byron Davis,74,180,Senior
+Youngstown State,Mychal Doblanski,72,190,Freshman
+Youngstown State,Kevin Draughon,77,240,Junior
+Youngstown State,Dwight Holmes,78,210,Senior
+Youngstown State,Mel Johnson,77,230,Junior
+Youngstown State,Jack Liles,79,240,Junior
+Youngstown State,Alek Mrozik,79,190,Sophomore
+Youngstown State,Mikko Niemi,74,200,Junior
+Youngstown State,Zack Rebillot,78,200,Junior
+Youngstown State,Blair Rozenblad,75,205,Freshman
+Youngstown State,Vytas Sulskis,79,195,Freshman

@@ -23,22 +23,22 @@ def pairwise(iterable):
 
 def make_seasons_array():
     base = '20'
-    arr = []
-    ret = []
+    years = []
+    seasons = []
     for num in range(3,15): 
         if len(str(num)) < 2:
             start = base + '0' + str(num)
         else:
             start = base + str(num)
-        arr.append(start)
-    for start, end in pairwise(arr):
+        years.append(start)
+    for start, end in pairwise(years):
         season = start + '-' + end
-        ret.append(season)
-    return (arr, ret)
+        seasons.append(season)
+    return (years, seasons)
 
 def get_stats():
 
-    teamFile = open('textfiles/teams_statsheet.txt', 'r')
+    teamFile = open('textfiles/teams_andy.txt', 'r')
     
     # TargetURL
     # http://statsheet.com/mcb/teams/syracuse/team_stats?season=2013-2014&type=all
