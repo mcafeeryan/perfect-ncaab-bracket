@@ -1,0 +1,22 @@
+Virginia Military Institute,http://statsheet.com/mcb/teams/virginia-military-institute,Big South
+Virginia Tech,http://statsheet.com/mcb/teams/virginia-tech,ACC
+Wagner,http://statsheet.com/mcb/teams/wagner,NEC
+Wake Forest,http://statsheet.com/mcb/teams/wake-forest,ACC
+Washington,http://statsheet.com/mcb/teams/washington,Pac-12
+Washington State,http://statsheet.com/mcb/teams/washington-state,Pac-12
+Weber State,http://statsheet.com/mcb/teams/weber-state,Big Sky
+West Virginia,http://statsheet.com/mcb/teams/west-virginia,Big 12
+Western Carolina,http://statsheet.com/mcb/teams/western-carolina,SoCon
+Western Illinois,http://statsheet.com/mcb/teams/western-illinois,Summit League
+Western Kentucky,http://statsheet.com/mcb/teams/western-kentucky,Sun Belt
+Western Michigan,http://statsheet.com/mcb/teams/western-michigan,MAC
+Wichita State,http://statsheet.com/mcb/teams/wichita-state,Missouri Valley
+William & Mary,http://statsheet.com/mcb/teams/william-mary,CAA
+Winthrop,http://statsheet.com/mcb/teams/winthrop,Big South
+Wisconsin,http://statsheet.com/mcb/teams/wisconsin,Big Ten
+Wofford,http://statsheet.com/mcb/teams/wofford,SoCon
+Wright State,http://statsheet.com/mcb/teams/wright-state,Horizon
+Wyoming,http://statsheet.com/mcb/teams/wyoming,Mountain West
+Xavier,http://statsheet.com/mcb/teams/xavier,Big East
+Yale,http://statsheet.com/mcb/teams/yale,Ivy League
+Youngstown State,http://statsheet.com/mcb/teams/youngstown-state,Horizon

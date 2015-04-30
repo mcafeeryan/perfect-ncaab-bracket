@@ -1,0 +1,12 @@
+Next time:
+
+- Start by figuring out exactly which statistics we want to grab, and from where, so that we have system for strategically pulling data
+- Automate name matching
+- Separate scraped statistics into separate directory and subdirectories by category
+- Write one function to merge files of the same format, and then individual/separate functions to munge each new format into the base format
+- Write a 'utils' file with all utility functions instead of duplicating them
+- Automate finding colinearity between variables, as well as run best subsets so we don't waste time experimenting
+
+***IMPORTANT***
+- Start earlier
+- Ensure that the data we are pulling isn't confounded by our 'predicted' data as well

@@ -1,0 +1,3 @@
+foreach team in maintained_teams:
+	get seasonal_statistics for team
+
